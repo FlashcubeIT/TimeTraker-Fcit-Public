@@ -1,0 +1,411 @@
+/* PresentingContainer */
+.presentingContainer {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 15px;
+}
+
+/* presentingLeft  */
+.presentingContainer .presentingLeft h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 690px;
+  padding: 5px 50px;
+  height: auto;
+  flex-shrink: 0;
+  background: #04542c;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: League Spartan;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+}
+
+.presentingContainer .presentingLeft p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 650px;
+  margin-top: 60px;
+  color: #000;
+  text-align: justify;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  padding-left: 50px;
+}
+
+/* presentingRight */
+.presentingRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* EvolutionContainer */
+.EvolutionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.EvolutionContainer h1 {
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #73c31d;
+  margin-top: 50px;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.EvolutionContainer p {
+  max-width: 1140px;
+  padding: 20px 0;
+  color: #000;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.EvolutionContainer img {
+  width: 80%;
+  padding-bottom: 60px;
+}
+
+/* FeaturbottomTextBtn */
+.FeaturbottomTextBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.FeaturbottomTextBtn p {
+  max-width: 1200px;
+  color: #000;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* Component */
+.component {
+  margin-top: 60px;
+}
+
+.componentHeading {
+  max-width: 1170px;
+  background: #04542c;
+}
+
+.componentHeading .textRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.componentHeading .textRight h1 {
+  max-width: 817px;
+  padding: 20px 25px;
+  color: #fff;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+/* componentContainer */
+.componentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 70px 0;
+}
+
+.componentContainer h5 {
+  color: #73c31d;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.componentContainer li {
+  color: #000;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.componentContainer p {
+  max-width: 1100px;
+  color: #000;
+font-family: League Spartan;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px;
+text-align: center;
+}
+
+/* Adopting */
+.Adopting {
+  margin-top: 60px;
+}
+
+.AdoptingHeading {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.AdoptingHeading .AdoptingtextRight {
+    max-width: 1170px;
+    background: #04542c;
+    padding-right: 20%;
+}
+
+.AdoptingHeading .AdoptingtextRight h1 {
+  max-width: 817px;
+  padding: 20px 25px;
+  color: #fff;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+/* AdoptingContainer */
+.AdoptingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 70px 0;
+}
+
+.AdoptingContainer h5 {
+  color: #73c31d;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.AdoptingContainer li {
+  color: #000;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* tablet and mobile view */
+@media screen and (max-width: 1300px) {
+  .presentingContainer .presentingLeft h1 {
+    font-size: 35px;
+    line-height: 40px;
+    padding: 10px 40px;
+  }
+
+  .presentingRight img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .presentingContainer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+  }
+
+  .presentingContainer .presentingLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .presentingContainer .presentingLeft h1 {
+    font-size: 25px;
+  }
+
+  .presentingContainer .presentingLeft p {
+    padding-left: 0;
+  }
+
+  .EvolutionContainer h1 {
+    margin-top: 40px;
+  }
+
+  .EvolutionContainer img {
+    padding-bottom: 50px;
+  }
+
+  .EvolutionContainer p {
+    max-width: 900px;
+  }
+
+  
+.componentHeading .textRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+.componentHeading .textRight h1 {
+    padding: 15px 15px;    
+    font-size: 35px;    
+  }
+
+.AdoptingHeading .AdoptingtextRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0%;
+    width: 100%;
+  }
+    
+.AdoptingHeading .AdoptingtextRight h1 {
+    padding: 15px 15px;    
+    font-size: 35px;    
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .FeaturbottomTextBtn p {
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .presentingContainer .presentingLeft h1 {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 10px 10px;
+  }
+
+  .presentingContainer .presentingLeft p {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+
+  .EvolutionContainer h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 0px;
+  }
+
+  .EvolutionContainer p {
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .EvolutionContainer img {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .componentHeading .textRight h1 {  
+    font-size: 25px;  
+    line-height: 35px;  
+  }
+ 
+
+  .component {
+    margin-top: 10px;
+  }
+
+  .Adopting {
+    margin-top: 10px;
+  }
+  
+  .AdoptingHeading .AdoptingtextRight h1 {  
+    font-size: 25px;  
+    line-height: 35px;  
+  }
+
+  .componentContainer {
+    margin: 0;
+  }
+
+  .componentContainer p {
+    font-size: 17px;
+    text-align: justify; 
+  }
+  .Adopting {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .AdoptingContainer {
+    margin: 0;
+  }
+  .componentContainer {
+    margin: 0;
+  }
+
+  .componentContainer li {
+      font-size: 17px;   
+  }
+
+  .AdoptingContainer li {
+      font-size: 17px;  
+      
+  }
+
+
+
+}

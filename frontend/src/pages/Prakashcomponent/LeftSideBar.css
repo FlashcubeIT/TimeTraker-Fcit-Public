@@ -1,0 +1,74 @@
+.card_parent_for_log{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.card_log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    width: 120px;
+    padding: 10px;
+    align-items: center;
+    border: 2px solid #30B05A;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 133px;
+
+}
+.card_log p{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    font-weight: 600;
+}
+.left_heading{
+    color: #04542c;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 39px;
+    font-weight: 400;
+    font-family: "League Spartan", sans-serif;
+}
+.card_log img{
+    width: 69px;
+    height: 69px;
+}
+
+.left_side_foot_log{
+    color: #04542c;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 20px;
+    font-family: 'Inter';
+}
+
+
+  
+  /* media query */
+  @media screen and (max-width: 1500px) {
+    .left_side_foot_log{
+     padding-left: 30px;
+     padding-right: 30px;
+  
+    }
+      
+  }
+  
+
+@media screen and (max-width:1400px) { 
+    .left_heading{        
+        font-size: 29px;
+      
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .left_heading{
+        text-align: center;
+        font-size: 25px;
+        padding: 25px 20px;
+    }
+}

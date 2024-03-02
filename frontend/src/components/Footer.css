@@ -1,0 +1,233 @@
+.footer-container {
+  background: rgba(100, 228, 142, 0.5);
+  padding: 40px;
+  /* margin-top: 50px; */
+}
+
+/* footer top */
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100%;
+}
+
+.footer-top h1 {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 20px;
+  width: 250px;
+  font-size: 50px;
+}
+
+.footer-top p {
+  width: 321px;
+  color: #04542c;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* footer middle */
+
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-middle li {
+  list-style-type: none;
+}
+.footer-middle li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding: 5px 20px;
+  list-style-type: none;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10px;
+  height: 40px;
+  cursor: pointer;
+}
+.footer-middle li:hover {
+  border: 2px solid #04542c;
+  /* background: white; */
+}
+
+.footer-middle li a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10px;
+}
+
+/* footer bottom */
+
+.footer-bottom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom h1 {
+  width: 390px;
+  color: #04542c;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-bottom p {
+  margin-top: 10px;
+  color: #04542c;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 390px;
+}
+
+.footer-bottom input {
+  margin-top: 10px;
+  padding: 13px 35px;
+  width: 245px;
+  border-radius: 30px;
+  border: 2px solid #04542c !important;
+  background: transparent;
+}
+
+.footer-bottom input:focus {
+  outline: none;
+}
+
+.footer-bottom button {
+  outline: none;
+  padding: 10px 23px;
+  margin-top: 10px;
+  border-radius: 50px;
+  outline: none;
+  margin-left: -50px;
+  color: #fff;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  background-color: #04542c;
+  border: 2px solid #04542c;
+}
+.footer-bottom button:hover {
+  background-color: #ffffff;
+  color: #04542c;
+}
+
+.footer-Btn {
+  display: flex;
+}
+@media screen and (max-width: 850px) {
+  .footer-middle {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .footer-bottom {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .footer-bottom h1 {
+    padding-top: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .footer-bottom p {
+    padding-top: 20px;
+    text-align: center;
+    width: 390px;
+    padding-bottom: 20px;
+  }
+
+  .footer-bottom input {
+    padding-top: 20px;
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-bottom h1 {
+    padding-top: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .footer-bottom p {
+    padding-top: 20px;
+    text-align: center;
+    width: 300px;
+    padding-bottom: 20px;
+  }
+
+  .footer-bottom input {
+    padding-top: 20px;
+    width: 200px;
+  }
+
+  .footer-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ol,
+  ul {
+    padding-left: 0rem;
+  }
+}

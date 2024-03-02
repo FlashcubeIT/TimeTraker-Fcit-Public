@@ -1,0 +1,183 @@
+.MakeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.MakeContainer h1 {
+  max-width: 983px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #73c31d;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.MakeContainer img {
+  width: 70%;
+}
+
+.MakeContainer p {
+  max-width: 1172px;
+  color: #000;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 50px;
+}
+
+/* TimeSaving */
+.TimeSaving {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.TimeSavingLeft h1 {
+  max-width: 610px;
+  color: #000;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.TimeSavingLeft h1 span {
+  color: #73c31d;
+  text-align: justify;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.TimeSavingLeft h1 li {
+  color: #000;
+font-family: League Spartan;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px;
+}
+
+/* TimeSavingRight */
+.TimeSavingRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.TimeSavingRight img {
+  width: 100%;
+}
+
+.TimeSavingRight .dotImgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/* bottomTextBtn */
+.bottomTextBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bottomTextBtn p {
+  max-width: 1172px;
+  color: #000;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* tablet and mobile view */
+
+@media screen and (max-width: 1200px) {
+  .MakeContainer img {
+    width: 100%;
+  }
+
+  .TimeSaving {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .TimeSavingReverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .MakeContainer h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 50px;
+  }
+
+  .MakeContainer p {
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .TimeSavingLeft h1 {
+    font-size: 17px;
+    text-align: justify;
+  }
+
+  .TimeSavingLeft h1 span {
+    font-size: 19px;   
+  }
+
+  .TimeSavingRight .dotImgContainer img {
+    width: 65%;
+    height: 200px;
+  }
+
+
+  .bottomTextBtn p {
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .TimeSavingLeft h1 li {
+  font-size: 17px;
+ 
+  }
+}

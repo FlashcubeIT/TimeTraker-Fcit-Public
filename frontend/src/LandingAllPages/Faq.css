@@ -1,0 +1,135 @@
+.faqContainer {
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.faqLeft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faqLeft img {
+  width: 100%;
+}
+
+/* mainContainer1 */
+.mainContainer h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.mainContainer h4 {
+  color: #73c31d;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+    font-family: League Spartan;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.headContainer {
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #f8f8f8;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.headIcon {
+  display: flex;
+}
+
+
+.headIcon .icon1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid #04542c;
+  width: 30px;
+  height: 30px;
+  color: #7e7e7e;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.headIcon .icon2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid #04542c;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  background: #04542c;
+  cursor: pointer;
+}
+
+.headIcon h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.Para p {
+  padding-left: 30px;
+  padding-right: 20px;
+  color: #7e7e7e;
+  font-family: Inter;
+  font-size: 15.375px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+@media screen and (max-width: 992px) {
+  .faqLeft {
+    margin-bottom: 50px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  /* .faqLeft {
+    display: none;
+  } */
+
+  .mainContainer h2 {
+    text-align: center;
+  }
+
+  .mainContainer h4 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .headIcon h1 {
+    width: 300px;
+  }
+
+  .faqContainer {
+    margin-bottom: 10px;
+  }
+  
+}

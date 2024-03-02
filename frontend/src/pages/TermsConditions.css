@@ -1,0 +1,43 @@
+.termsConditions {
+  padding: 30px 200px 30px 200px;
+  background-color: #fff;
+}
+
+.termsConditionsTop h6 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+  font-family: Roboto;
+}
+
+.termsConditions p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-family: Roboto;
+}
+
+/* Terms and Conditions */
+.termsConditionsHeading {
+  color: #73c31d;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.termsConditionsPara {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  font-family: Roboto;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .termsConditions {
+    padding: 30px 30px 30px 30px;
+    background-color: #fff;
+  }
+}

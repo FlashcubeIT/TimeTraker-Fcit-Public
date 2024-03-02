@@ -1,0 +1,213 @@
+.price-container_for_single_page{
+    background: white;
+    margin-top: 0px !important;
+    padding-top: 100px;
+}
+.price-container {
+
+    padding: 80px 10px;
+    background-position: center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    background-image: url(../img//Group\ 724\ \(3\).png);
+}
+
+.price-container h1 {
+    /* padding: 10px 0px; */
+    color: #04542C;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 80px;
+    line-height: normal;
+}
+
+.price-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;    
+}
+
+.price-card {
+    width: 321px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 2px solid #04542C;
+    background: #FFF;
+}
+.price-card_1{
+    transition: transform .5s;
+}
+.price-card_1:hover{
+    -ms-transform: scale(1.04); /* IE 9 */
+  -webkit-transform: scale(1.04); /* Safari 3-8 */
+  transform: scale(1.04); 
+}
+.price-card_2{
+    transition: transform .5s;
+}
+.price-card_2:hover{
+    -ms-transform: scale(1.04); /* IE 9 */
+  -webkit-transform: scale(1.04); /* Safari 3-8 */
+  transform: scale(1.04); 
+}
+.price-card_3{
+    transition: transform .5s;
+}
+.price-card_3:hover{
+    -ms-transform: scale(1.04); /* IE 9 */
+  -webkit-transform: scale(1.04); /* Safari 3-8 */
+  transform: scale(1.04); 
+}
+
+.price-card h2 {
+    text-align: center;
+    height: 23px;
+    padding: 19px 0;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 30px !important;
+}
+
+.price-card .dollar {
+    display: flex;
+   /* text-align: center; */
+    height: 31px;   
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price-card strong {
+    color: #595959;
+    font-family: League Spartan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price-card .price-text {
+    margin-left: 50px;
+    line-height: 0px;
+    /* margin-top: -5px; */
+    /* margin-bottom: -5px; */
+}
+
+/* .price-card .price-text p {
+    margin-bottom: 10px;
+} */
+
+.price-card span {
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.price-card i {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+.price-card .para-last {
+    color: #04542C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.price-card .price-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.price-card .price-btn button {
+    border: none;
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 180px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #04542C;
+}
+.price-card .price-btn button:hover{
+    border: 2px solid #04542C;
+    background: white;
+    color:#04542C ;
+}
+
+.price-card-middle {
+    background: #E0FAE8;
+    width: 400px;
+}
+
+.price-card-middle .price-text {
+    line-height: 25px;
+    /* font-size: 30px; */
+}
+
+.price-card-middle .price-text p {
+    font-size: 30px;
+    vertical-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .price-card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .price-card {
+        width: 350px;
+        flex-shrink: 0;
+        border-radius: 40px;
+        border: 2px solid #04542C;
+        background: #FFF;
+    }
+    
+    .price-container {
+        background-image: none;
+    }
+
+    .price-card-middle {
+        background: #E0FAE8;
+    }
+   
+}

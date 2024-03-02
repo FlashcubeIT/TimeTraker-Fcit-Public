@@ -1,0 +1,375 @@
+/* blogHero */
+.blogHero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/HeroImg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  margin-top: -100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+}
+
+.blogHero h1 {
+    font-size: 45px;
+    color: #04542c;
+    text-align: center;
+    max-width: 900px;
+    padding-top: 50px;
+}
+
+.blogHero p {
+    margin-top: 25px;
+    font-size: 19px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    max-width: 800px;
+}
+
+
+/* .featured-blog-container  */
+.featured-blog-container {
+  margin-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.blogPage h1 {
+  text-align: center;
+  height: 40px;
+  color: #04542c;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  margin-top: 70px;
+}
+
+.blogPage .blogpara {
+  max-width: 900px;
+  color: #000;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  margin: auto;
+}
+
+.blogPage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 70px;
+}
+
+.blog-text {
+  display: flex;
+  padding: 23px 1px 39px 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: -0.3px;
+  border-radius: 30px;
+  border: 2px solid #000;
+  background: #fff;
+  height: 460px;
+  width: 355px;
+}
+
+.blogText:hover .blog-text {
+  display: none;
+}
+
+.blogText:hover .featBlogImg {
+  display: block;
+}
+
+/* featBlogImg1 */
+
+.featBlogImg {
+  display: none;
+  position: relative;
+}
+
+.featBlogImg img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 355px;
+  height: 460px;
+  cursor: pointer;
+  transform: scale(1.02) !important;
+  transition: 1s ease !important;
+}
+
+/* handImg */
+.handImg {
+  position: absolute;
+  top: 150px;
+  left: 90px;
+}
+
+.blog-text span {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #7d7d82;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.blog-text h5 {
+  width: 348px;
+  color: #73c31d;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.blog-text p {
+  padding: 0 15px;
+  margin-top: 15px;
+  width: 345px;
+  color: #000;
+  text-align: justify;
+  font-family: League Spartan;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/*      {/* Subscribe to the Ignition blog  */
+.subscribe-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../img/businessImg.svg);
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 50vh;
+}
+
+.subscribe-left h1 {
+  color: #15514d;
+  font-family: Segoe UI;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.subscribe-left p {
+  max-width: 500px;
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* subscribe-right */
+.subscribe-right {
+  display: flex;
+}
+
+.subscribe-right input {
+  display: flex;
+  width: 450px;
+  height: 46px;
+  padding: 14px 13px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+}
+
+.subscribe-right input:focus {
+  outline: none;
+}
+
+.subscribe-right button {
+  border: none;
+  display: flex;
+  width: 100px;
+  height: 46px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 12px;
+  border: 1px solid #04542c;
+  background: #04542c;
+  margin-left: -20px;
+}
+
+/* headline */
+.begain-container {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../img/businessImg.svg);
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 60vh;
+}
+
+.begain-container h1 {
+  color: #04542c;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 40px 0;
+}
+
+.begain-container p {
+  max-width: 780px;
+  color: #000;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.begain-container button {
+  border: none;
+  color: #fff;
+  font-family: League Spartan;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 2px 20px;
+  /* width: 150px;
+    height: 40px; */
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #04542c;
+  margin: 40px 0;
+  border: 2px solid #04542c;
+}
+.begain-container button:hover {
+  background: white;
+  color: #04542c;
+}
+
+/* close helline */
+
+@media screen and (max-width: 600px) {
+  .blogHero {
+    height: 80vh;
+  }
+
+  .blogHero h1 {
+    font-size: 25px;
+    padding-top: 30px;
+}
+  .blogHero p {
+    font-size: 15px;
+  }
+
+  .blogPage h1 {
+    height: 40px;
+    color: #04542c;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .blog-text h5 {
+    width: 350px;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .blog-text p {
+    padding: 0 10px;
+    width: 340px;
+  }
+
+  .begain-container {
+    height: 40vh;
+  }
+
+  .begain-container h1 {
+    font-size: 25px;
+  }
+
+  .begain-container p {
+    width: 350px;
+    font-size: 15px;
+  }
+
+  .subscribe-container {
+    height: 35vh;
+    gap: 0;
+  }
+
+  .subscribe-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .subscribe-left h1 {
+    font-size: 25px;
+  }
+
+  .subscribe-right input {
+    width: 250px;
+  }
+  .blogPage .blogpara {
+    font-size: 14px;
+    text-align: justify;
+  }
+}

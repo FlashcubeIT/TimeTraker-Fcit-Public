@@ -1,0 +1,237 @@
+/* navbar */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-image: url(../img/HeroImg.png); */
+}
+
+.navbar-container .nav-logo img {
+    width: 70%;
+}
+
+.nav-menu {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-menu li {
+    padding: 5px 20px;
+    list-style-type: none;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: #000;    
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    cursor: pointer;
+
+}
+.nav-menu li:hover{
+    border: 2px solid #04542c;
+    /* background: white; */
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: #000;    
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+.nav-button button {
+    border: none;
+    margin-left: 10px;
+}
+/* .new_nav_back{
+    background-image: url("./webComponents/images/back.svg") !important;
+} */
+.nav-button .nav-btn1 {
+    color: #04542C;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 30px;
+    background: rgba(115, 195, 29, 0.80);
+    padding: 12px 30px;
+    border: 1px solid rgba(115, 195, 29, 0.80);
+}
+.nav-button .nav-btn1:hover{
+    background: white;
+    color:#04542C ;
+}
+.nav-button .nav-btn2 {
+    color: #FFF;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #04542C;
+    padding: 12px 30px;
+    border: 1px solid #04542C;
+}
+.nav-button .nav-btn2:hover{
+    background: white;
+    color:#04542C ;
+}
+
+.hamburger {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 28px;
+    display: none;
+    color: #000;
+  }
+
+@media screen and (max-width: 1300px) {
+    .nav-menu li a{
+        font-size: 17px;        
+    }
+
+    .nav-button .nav-btn1 {       
+        font-size: 18px;        
+        font-weight: 500;        
+        border-radius: 20px;       
+        padding: 12px 20px;
+    }
+    
+    .nav-button .nav-btn2 {        
+        font-size: 20px;        
+        font-weight: 500;        
+        border-radius: 20px;       
+        padding: 12px 20px;
+    }    
+}
+
+@media screen and (max-width: 1210px) {
+    .nav-menu {
+        /* background-color: #3e27db; */
+        background: #04542C;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: end;
+        height: 55vh;
+        width: 100%;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        opacity: 0;
+        z-index: 999;
+      }
+    
+      .nav-menu li {
+        padding: 8px 0;
+        list-style: none;
+        color: #fff;
+      }
+    
+      .nav-menu li a {
+        color: #fff;
+        /* color: #2e85a3 */
+      }
+    
+       .drop a {
+       color: #fff;
+      }
+    
+      .btn {
+        color: #fff;
+      }
+    
+      .hamburger {
+        display: block;
+      }
+    
+      .nav-menu.active {
+        opacity: 1;
+      }
+    
+      ol, ul {
+        padding-left: 0rem;
+        }
+
+        .nav-button {
+            margin-right: 30px;
+        }
+    }
+
+
+@media screen and (max-width: 500px) {
+    .nav-menu {
+        /* background-color: #3e27db; */
+        top: 80px;
+        padding-top: 0px;
+    }
+  
+    .nav-button {
+        margin-right: 40px;
+    }
+       
+    .nav-button .nav-btn1 {        
+        font-size: 15px;        
+        padding: 8px 15px;
+    }
+    
+    .nav-button .nav-btn2 {        
+        font-size: 15px;        
+        padding: 8px 15px;
+    }
+
+    .navbar-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .navbar-container .nav-logo {
+        width: 120px;
+    }
+
+    .navbar-container .nav-logo img {
+        width: 70%;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    .nav-button {
+        margin-top: 0px;
+    }
+    .nav-logo{
+        width: 19% !important;
+    }
+    .navbar-container{
+        padding-right: 8px;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,86 @@
+.timeBoxsheet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 500px;
+    margin: auto;
+}
+
+/* .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+ overflow: hidden;
+} */
+
+.inputFile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
+.inputFile h1 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    font-family: Inter;
+}
+
+.inputFile input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 125px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: darkgray;
+}
+
+.clickHead {
+    padding: 35px 0;
+}
+
+.clickHead p {
+    border: none;
+    background-color: #fff;
+    font-family: Inter;
+    color: rgb(4, 84, 44);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.closeSaveBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.closeSaveBtn button {
+    border: 1px solid rgb(100, 228, 142);
+    width: 100px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    /* background-color: rgb(100, 228, 142); */
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25); */
+    border-radius: 10px;
+    border: 1px solid #73C31D;
+    background: #FFF;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

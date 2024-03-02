@@ -1,0 +1,104 @@
+.blog h1{
+    text-align: center;   
+    height: 40px;
+    color: #04542C;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 70px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 70px;
+}
+
+.blog-text {
+    display: flex;
+    padding: 23px 1px 39px 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: -0.3px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+
+.blog-text span {
+    margin-top: 15px;       
+    margin-bottom: 10px;
+    color: #7D7D82;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; 
+}
+
+.blog-text h5 {
+    width: 348px;
+    color: #73C31D;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.blog-text p {
+    padding: 0 15px;
+    margin-top: 15px;
+    width: 345px;
+    color: #000;
+    text-align: justify;
+    font-family: League Spartan;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; 
+}
+
+@media screen and (max-width: 1150px) {
+    .blog-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 40px;
+        margin-top: 70px;
+        margin: 0 20px;
+    }    
+}
+
+@media screen and (max-width: 576px) {
+
+    .blog h1{
+        height: 40px;
+        color: #04542C;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .blog-text h5 {
+        width: 350px;        
+        font-size: 18px;        
+        padding: 0 10px;
+    }
+
+    .blog-text p {
+        padding: 0 10px;        
+        width: 340px;
+        
+    }
+}

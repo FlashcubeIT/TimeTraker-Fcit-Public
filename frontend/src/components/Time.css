@@ -1,0 +1,246 @@
+.time-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    margin-top: 70px;
+}
+
+.time-text .icon-img {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.time-text .icon-img h6 {
+    color: #000;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+.time-text h5 {
+    width: 600px;
+    color: #73C31D;
+    font-family: League Spartan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+.time-text p {
+    margin-top: 10px;
+    width: 600px;
+    color: #595959;
+    font-family: League Spartan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; 
+}
+.time-text li {
+    margin-top: 10px;
+    width: 600px;
+    color: #595959;
+    font-family: League Spartan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; 
+}
+
+.time-text button {
+    margin-top: 20px;
+    border: none;
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* width: 150px; */
+    padding: 2px 20px;
+    /* height: 40px; */
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #04542C;
+    border: 2px solid #04542C;
+}
+.time-text button:hover{
+        background: white;
+        color:#04542C ;
+}
+/* time-img */
+.time-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.time-img img {
+    width: 82%;
+    height: 79%;
+}
+
+.time-img .time-img1 .timeImg1 img {
+    width: 100%;
+}
+
+.time-img .time-img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    width: 600px;
+}
+
+.time-img .time-img1 .timeImg2 {
+
+}
+
+
+/* arrow */
+.time-img1 .timeImg2 img {
+    margin-top: -72%;
+    margin-left: -215%;
+    width: 100%;
+}
+.time-img1 .timeImg_new img {
+    margin-top: -72% !important;
+    margin-left: 215% !important;
+    width: 100% !important;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .time-container {
+        display: flex;        
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        padding: 30px;
+    }
+
+    .time-img1 .timeImg2 img {
+        display: none;
+    }
+
+    .time-text h5 {
+        width: 500px;
+       font-size: 26px;
+       
+    }    
+    
+    .time-text p {
+        width: 500px;
+        font-size: 15px;        
+    }
+    .time-text li {
+        width: 500px;
+        font-size: 15px;        
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .time-container {
+        display: flex;        
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 30px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+   .time-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   
+.time-img .time-img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    width: 100%;
+}
+
+    .time-text .icon-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .time-text h5 {
+        padding-top: 8px;
+        width: 350px;        
+        font-size: 18px;
+        text-align: center;
+        line-height: 17px;       
+    }
+
+    .time-text p {
+        margin-top: 10px;
+        width: 330px;        
+        font-size: 15px;
+        text-align: center;       
+    }
+    .time-text li {
+        margin-top: 10px;
+        width: 330px;        
+        font-size: 15px;
+        text-align: center;       
+    }
+
+    .time-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .time-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+    
+    .time-img img {
+        /* width: 58%; */
+        min-width: 250px;
+    }
+    
+    .time-img .time-img1 .timeImg1 img {
+        width: 150px;
+    }
+
+    .time-img .time-img1 .timeImg2 {
+        /* width: 150px;
+        height: 90px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 2px solid #04542C;
+        background: rgba(177, 241, 199, 0.50); */
+        display: none;
+    }    
+
+}

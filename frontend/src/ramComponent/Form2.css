@@ -1,0 +1,642 @@
+#formGridEmail, #formGroupEmail{
+    outline: black;
+    border: 1px solid gray;
+    height: 45px;
+    box-shadow: none;
+    background-color: #fff;
+    font-size: 20px !important;
+    font-family: 'Inter', sans-serif;
+}
+
+#formGridEmail, #formGroupEmail:focus{
+  border-bottom: 2px solid #04542C !important;
+}
+
+/* form 2 */
+.header-right3 {
+    background: #fff;
+    border-radius: 50px;
+    border: 2px solid #64E48E;    
+}
+
+.head-text3 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.head-text3 p {
+    color: #04542C;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-bottom: -4px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.head-text3 span {
+    color: #04542C;
+    font-weight: 700; 
+    font-size: 15px; 
+    font-family: 'Inter', sans-serif;  
+}
+
+.box-div {
+    /* margin-top: 35px; */
+    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-div i {
+    color: red;
+}
+.box-div span {
+    color: #2385DF;    
+}
+
+.box-container {
+    display: flex;
+    column-gap: 25px;
+}
+
+
+
+/* .headBtn3 {
+    margin: 0 30px;
+} */
+
+.headBtn4 button {
+    background-color: #04542C;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.headBtn3 button:hover {
+    background: #64E48E;
+    color: #000;
+    font-weight: 600;
+    transition: 1s;
+    left: 0;
+}
+
+.head-bottom-text3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.headBtn4 .btn2 {
+    background: #64E48E;
+
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 0;
+    font-family: 'Inter', sans-serif;
+    margin-top: -30px;
+}
+
+.headBtn3 .btn2:hover {
+    background-color: #04542C;
+}
+
+.head-bottom-text3 p{
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+/* .head-bottom-text3 .text {
+    padding-top: 13px;
+} */
+
+.head-bottom-text3 .text2 {
+    margin-top: 100px;
+}
+
+.head-bottom-text3 span {
+    color: #2385DF;    
+}
+
+
+.box-div p {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.box-container .form .form2Input  {
+    height: 50px;
+}
+
+.box-container .form .form2Input:focus {
+    border-bottom: 2px solid #04542C !important;
+    box-shadow: none;
+    border: none
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {   
+    .header-left {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {    
+.head-text1 p {
+    color: #04542C;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: -4px;
+    font-size: 12px !important;
+    font-family: 'Inter', sans-serif;
+}
+}
+
+/* form 3 */
+.head-bottom-text4 .text {
+    padding-top: 13px;
+}
+
+.head-bottom-text4 .text2 {
+    margin-top: 50px;
+}
+
+.header-right4 {
+    /* padding: 10px 50px; */
+    padding-right: 50px;
+    background: #fff;
+    border-radius: 50px;
+    border: 2px solid #64E48E;    
+}
+
+.head-text4 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.head-text4 p {
+    color: #04542C;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: -4px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.head-text4 span {
+    color: #04542C;
+    font-weight: 700; 
+    font-size: 15px; 
+    font-family: 'Inter', sans-serif;  
+}
+
+.form {
+    padding: 0px 30px;
+    padding-top: 20px;  
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.form-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+
+form i {
+    color: red;
+}
+
+#formGridEmail, #formGroupEmail:focus {
+    box-shadow: none;    
+}
+
+.headBtn4 {
+    margin: 0 30px;
+}
+
+.headBtn4 button {
+    background-color: #04542C;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.headBtn4 button:hover {
+    background: #64E48E;
+    color: #000;
+    font-weight: 600;
+    transition: 1s;
+    left: 0;
+}
+
+.head-bottom-text4 {
+    text-align: center;
+    /* margin-bottom: 15px; */
+}
+
+.headBtn4 .btn2 {
+    background: #64E48E;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 0;
+    font-family: 'Inter', sans-serif;
+    margin-top: -30px;
+}
+
+.headBtn4 .btn2:hover {
+    background-color: #04542C;
+}
+
+.head-bottom-text4 p{
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.head-bottom-text4 span {
+    color: #2385DF;    
+}
+
+
+/* jglldlgldg */
+
+
+
+
+
+
+.parent_div {
+    padding: 50px 100px;
+}
+
+.header-container1 {
+   height: 100%;
+} 
+.main_parent_of_form{
+    height: 100%;
+}
+
+.header-right_forgotPass_page {
+    background: #fff;
+    border-radius: 50px;
+    border: 2px solid #64E48E;  
+    padding-left:  0px;
+    padding-right: 50px;
+}
+
+.head-text1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.head-text1 p {
+    color: #04542C;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-bottom: -4px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.head-text1 span {
+    color: #04542C;
+    font-weight: 700; 
+    font-size: 15px; 
+    font-family: 'Inter', sans-serif;  
+}
+
+#formGridEmail, #formGroupEmail{
+    outline: black;
+    border: 1px solid gray;
+    padding:8px 5px;
+    /* margin-top: -8px; */
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+.form-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+
+form i {
+    color: red;
+}
+
+#formGridEmail, #formGroupEmail:focus {
+    box-shadow: none;    
+}
+
+/* .headBtn1 {
+    margin: 0 30px;
+} */
+
+.headBtn1 button {
+    background-color: #04542C;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 7px 0;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid #04542C;
+}
+
+.headBtn1 button:hover {
+    color: #04542C;
+    background-color: #fff !important;
+    border: 2px solid #04542C;
+}
+
+.headBtn1 button:hover {
+    background: #64E48E;
+    color: #04542C;
+    font-weight: 600;
+    transition: 1s;
+    left: 0;
+}
+
+.head-bottom-text1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+.headBtn1 .btnhover {
+    background: #64E48E;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 7px 0;
+    font-family: 'Inter', sans-serif;
+    margin-top: -30px;
+    border: 2px solid #64E48E;
+}
+.headBtn1 .btnhover-intuite {
+    color: #236cff;
+    border: 2px solid #236cff;
+    background-color: #fff;
+}
+
+.headBtn1 .btnhover:hover {
+    color: #04542C;
+    border: 2px solid #04542C;
+    background-color: #fff;
+}
+
+.headBtn1 .btnhover-intuite:hover {
+    background: #236cff !important;
+    color: #ffffff;
+    border: 2px solid #236cff;
+}
+
+.headBtn1 .btn2:hover {
+    background-color: #04542C;
+}
+
+.head-bottom-text1 p{
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.head-bottom-text1 .text {
+    padding-top: 13px;
+}
+
+.head-bottom-text1 .text2 {
+    margin-top: 140px;
+}
+
+.head-bottom-text1 span {
+    color: #2385DF;    
+}
+
+
+@media screen and (max-width: 576px) {
+    .main-container {
+        margin: 0;
+    }
+
+  
+    .parent_div {
+        padding: 0;
+    }
+    .header-container {
+        /* background: #fff;   */
+        margin-bottom: 30px;       
+    }
+
+    .header-right {
+        /* background: #fff; */
+        border-radius: 0px;
+        border-radius: 50px;
+        padding: 10px;
+        padding-bottom: 10px;           
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .header-container {
+        /* background: #fff;   */
+        margin-bottom: 0px;       
+    }
+
+    .header-right {
+        border: none;    
+    }
+
+    .header-left-para {
+        display: none;
+    }
+
+    /* .header-left h1 {
+            background: rgba(100, 228, 142, 0.50);     
+    } */
+
+    .header-container {
+        background: none
+    }
+
+
+    form {
+        padding: 0px 5px;
+        padding-top: 20px;   
+    }
+    
+    #formGridEmail, #formGroupEmail{
+        outline: black;
+        border: 1px solid gray;
+        padding:12px 5px;
+        /* margin-top: -8px; */
+        font-size: 13px;
+    }
+
+    .head-bottom-text1 .text {
+        padding-top: 13px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .head-bottom-text1 span {
+        color: #2385DF;  
+        font-size: 15px;
+        font-weight: 500;  
+    }
+
+    .main-container {
+        margin: 5px 10px;
+    }
+
+    .parent_div {
+        padding: 10px;
+    }
+    /* .header-container {
+        background: rgba(100, 228, 142, 0.50);         
+    } */
+
+
+    body {
+        background: #f1f1f1;
+    }
+}
+/* .main-container {
+    margin: 50px 100px;
+    margin-bottom: 0;
+} */
+
+.parent_div {
+    padding: 50px 100px;
+}
+/* 
+.header-container1 {
+    background: rgba(100, 228, 142, 0.50);   
+    border-radius: 50px;
+} */
+
+
+
+@media screen and (max-width: 576px) {
+    .main-container {
+        margin: 0;
+    }
+
+    .parent_div {
+        padding: 0;
+    }
+
+    .header-container {
+        /* background: #fff;   */
+        margin-bottom: 0px;       
+    }
+
+    .header-right {
+        /* background: #fff; */
+        border-radius: 0px;
+        border-radius: 50px;
+        padding-bottom: 10px;    
+        padding: 10px;       
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+   
+
+    .header-right {
+        border: none;    
+    }
+
+    .header-left-para {
+        display: none;
+    }
+
+    /* .header-left h1 {
+            background: rgba(100, 228, 142, 0.50);     
+    } */
+
+    .header-container {
+        background: none
+        }
+
+
+    form {
+        padding: 0px 5px;
+        padding-top: 0px;   
+    }
+    
+    #formGridEmail, #formGroupEmail{
+        outline: black;
+        border: 1px solid gray;
+        padding:12px 5px;
+        /* margin-top: -8px; */
+        font-size: 13px;
+    }
+
+    .head-bottom-text1 .text {
+        padding-top: 13px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .head-bottom-text1 span {
+        color: #2385DF;  
+        font-size: 16px;
+        font-weight: 500;  
+    }
+
+    .main-container {
+        margin: 5px 10px;
+    }
+
+    .parent_div {
+        padding: 10px;
+    }
+    /* .header-container {
+        background: rgba(100, 228, 142, 0.50);         
+    } */
+
+
+    body {
+        background: #f1f1f1;   
+    }
+}
+
+
+.headBtn1 .continue-btn:hover {
+    background-color: #64E48E !important ;
+    color: #000;
+    border: none;
+    border: 2px solid #64E48E;
+}

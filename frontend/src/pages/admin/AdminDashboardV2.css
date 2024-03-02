@@ -1,0 +1,719 @@
+/* Row 1 */
+.project_name{
+    margin-bottom: 0;
+    margin-left: 18px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.expense_card{
+    width: 190px !important;
+    padding: 0px 10px;
+}
+
+.dash-container1 {
+    background: rgba(100, 228, 142, 0.80);
+    height: 60px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 15px; */
+}
+
+.header-top .dash-header1 {
+    margin-left: 50px;
+}
+
+.header-top .dash-header1 a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.header-top .dash-header2 img{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.header-top .dash-header2 img:hover{
+    transform: scale(1.05, 1.05);
+}
+
+/* Row 2 */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 40px;
+}
+
+.card-container .card1{
+    display: flex;
+    width: 200px;
+    border-radius: 20px;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.70);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    align-items: center;
+}
+
+.card-container .card1 .card-para1{
+    color: #73C31D;
+    text-align: right;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 5px;
+}
+
+.card-container  .card1 .card-para2 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.card_content_parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1420px) {
+    .card-container .card1 .card-para1{
+        font-size: 28px;
+    }
+    .card-container .card1{
+        width: 145px;
+    }
+}
+
+.card-child{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #04542C;
+    border-radius: 20px;
+}
+
+
+.card-container .card5 .card-para3{
+    font-family: Inter;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    /* padding-left: 20px; */
+    /* padding-top: 20px; */
+    flex-shrink: 0;
+    /* padding: 10px; */
+    margin: 0 !important;
+}
+.card5  .card-para1{
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0;
+    color: #73c31d;
+}
+
+/* Row 3 */
+
+.dash1-wrap1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.graphLeft {
+    width: 53%;
+    margin-top: 35px;
+    /* margin-left: 60px; */
+    /* max-width: 800px; */
+    height: 470px;
+    padding-right: 30px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+}
+.recharts-surface{
+    max-width: 100%;
+}
+.recharts-wrapper{
+    max-width: 100% !important;
+}
+.graphLeft .graph-text h5 {
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+
+
+.graphLeft .graph-text button {
+    margin-top: 25px;
+    margin-right: 30px;
+    width: 250px;
+    height: 35px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #C1C1C1;
+}
+
+.graphLeft .graph-text button:hover{
+    background: #04542C; 
+    color: white;
+}
+
+.graph-text {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.graphLeft img {
+    /* max-width: 800px; */
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+
+
+.date_filter_for_cahrt{
+    padding-left: 50px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.date_filter_for_cahrt input{
+    border: 1px solid #c4c4c4 !important;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 10px !important;
+    height: 35px;
+    width: 151px;
+}
+.date_filter_for_cahrt button{
+    height: 35px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #C1C1C1;
+    padding : 0px 35px;
+}
+
+.date_filter_for_cahrt button:hover{
+    background: #04542C; 
+    color: white;
+}
+
+
+/* graph Right */
+
+
+.graphRight {
+    width: 400px;
+    height: 410px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #04542C;
+    background: #FFF;
+    margin-top: 35px;
+    /* margin-left: -35px; */
+    
+}
+
+.graphRight h5 {
+    color: #000;
+    padding-top: 25px;
+    padding-left: 35px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.graphRight .graph1 {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    column-gap: 30px;
+    margin-top: 10px;
+}
+
+.graphRight .graph1 img {
+    width: 30px;
+    margin-left: 20px;
+}
+
+.graphRight .graph1 .bar1{
+    margin-top: 15px;
+    width: 140px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.graphRight .graph1 .bar2{
+    margin-top: -10px;
+    width: 186px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #C1C1C1;
+}
+
+/* Row 4 */
+.dash1-wrap2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+
+.report {
+    margin-top: 30px;
+    /* margin-left: 60px; */
+    /* max-width: 900px; */
+    /* height: 330px; */
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.report-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    column-gap: 20px; 
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;    
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.report-container .report1 {
+    width: 136px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #73C31D;
+    text-align: center;
+}
+
+.report-container .report1 p {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.report-text {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.report .report-text h5 {
+    padding-top: 25px;
+    padding-left: 30px;
+    font-weight: 500;
+}
+
+.report .report-text button {
+    margin-top: 25px;
+    margin-right: 30px;
+    width: 130px;
+    height: 30px;
+    flex-shrink: 0;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    background: #C1C1C1;
+}
+
+/* column right */
+
+.timesheet {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.timesheet .timesheet1 {
+    width: 300px;
+    height: 152px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #04542C;
+    background: #FFF;
+}
+
+.timesheet .timesheet2 {
+    margin-top: 20px;
+    width: 300px;
+    height: 152px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #04542C;
+    background: #FFF;
+}
+
+.timesheet .timesheet1 img {
+    padding-top: 15px;
+}
+
+.timesheet .timesheet2 img {
+    padding-top: 15px;
+}
+
+.timesheet p {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.body_main_content{
+    padding: 0px 34px;
+}
+
+.card-container{
+    width: 100% !important;
+}
+
+.graph-text_selact{
+    cursor: pointer;
+    max-width: 151px;
+    height: 35px;
+    font-weight: 600;
+    margin: 25px 0px 20px 50px;
+}
+
+@media screen and (max-width: 1448px) {
+    .report{
+        width: 100% !important;
+    }
+    .timesheet_container{
+        width: 100%;
+    }
+    .timesheet{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        display: flex;
+        margin-right: 0px !important;
+    }
+    .timesheet2{
+        margin-top: 0 !important;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .timesheet1{
+        width: 100% !important;
+    }
+    .timesheet2{
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
+}
+
+
+@media screen and (max-width: 1218px) {
+    .graphRight-container{
+        width: 100% !important;
+      }
+      .graphLeft{
+          width: 100% !important;
+      }
+      .graphRight{
+          width: 100% !important;
+      }
+}
+
+/* @media screen and (max-width: 1384px) {
+    .report {
+        width: 100% !important;
+    }
+
+    .card-container{
+        width: 100% !important;
+    }
+} */
+.card1 img{
+    width: 37px;
+    height: 37px;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .graph-text_selact{
+        margin: 25px 0px 20px 6px;
+        height: 30px;
+    }
+    .card-container .card1{
+        width: 123px;        
+    }
+
+    .card-container .card1 .card-para1{
+        font-size: 28px;
+        padding-top: 5px;
+    }
+    
+    .card-container  .card1 .card-para2 {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: -10px;
+    }
+
+    .graphLeft  {
+        width: 350px;         
+    }
+
+    .graphRight {
+        width: 350px;        
+    }
+
+    .graphLeft .graph-text h5 {
+        font-size: 15px;
+        padding-left: 10px; 
+    }
+    
+    .graphLeft .graph-text button {
+        width: 200px;
+        height: 15px;
+        margin-left: 10px;
+        padding-bottom: 25px;
+    }
+
+    .report-container {
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;    
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    
+
+    .report-container .report1 img {
+        width: 70px;
+    }
+    
+    .report-container .report1 p {        
+        font-size: 10px;        
+    }
+
+    .report {
+        width: 350px;
+    }
+
+    .timesheet {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+
+    .timesheet .timesheet1 {
+        width: 350px;
+        height: 180px;
+      
+    }
+
+    .timesheet .timesheet1 img {
+        width: 250px;
+    }
+
+    .timesheet .timesheet1 p, span {
+        font-size: 13px;
+    }
+    
+    .timesheet .timesheet2 {
+        width: 350px;
+        height: 180px;        
+    }
+    
+    .timesheet .timesheet2 img {
+        width: 250px;
+    }
+
+    .timesheet .timesheet2 p, span {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 830px) and (min-width: 576px) {
+    .leftdash1 {
+        background-color: #04542C;
+        max-height: 100%;
+        width: 100%;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 200px;
+        text-align: center;
+    }
+    
+    .card-container {
+        width: 670px;
+        margin: auto;  
+        padding-top: 30px;  
+        gap: 30px;    
+    }
+
+    .graphLeft  {
+        width: 650px;         
+    }
+
+    .graphRight {
+        width: 650px;        
+    }
+
+    .report {
+        width: 650px;
+    }
+
+    .timesheet .timesheet1 {
+        width: 650px;
+        height: 300px;
+      
+    }
+
+    .timesheet .timesheet1 img {
+        width: 450px;    
+    }
+
+    .timesheet .timesheet1 p, span {
+        font-size: 17px;
+    }
+    
+    .timesheet .timesheet2 {
+        width: 650px;
+        height: 300px;   
+    }
+    
+    .timesheet .timesheet2 img {
+        width: 450px;
+    }
+
+    .timesheet .timesheet2 p, span {
+        font-size: 17px;
+    }
+}
+
+
+
+/* @media screen and (max-width: 1000px) and (min-width: 576px) {
+    .graphLeft {
+       width: 500px;         
+    }
+    
+} */
+
+@media screen and (max-width: 1000px) {
+    .dash1-wrap2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+
+ @media screen and (max-width: 1430px) {
+    /* .dash1-wrap1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    } */
+
+    /* 
+    .graphRight {
+        width: 500px;
+        
+    }
+     */
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+       
+    }
+/* 
+    .dash1-wrap2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .timesheet .timesheet1 {
+        max-width: 500px;
+       
+    }
+
+    .timesheet .timesheet2 {
+        max-width: 500px;
+        
+    } */
+} 
+
+.content_right_dashboard{
+    width: calc(100vw - 247px) !important;
+    margin-left: 230px;
+}

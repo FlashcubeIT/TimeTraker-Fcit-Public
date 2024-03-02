@@ -1,0 +1,76 @@
+.left_box_check{
+   width: 50%;
+   padding: 12px 2px;
+    font-size: 20px;
+}
+.left_grid{
+    background: white;
+    margin-right: 9px !important;
+    padding: 20px 10px;
+    border-radius: 30px;
+    border: 1px solid #a3a3a3;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+}
+.right_grid{
+    background: white;
+    margin-right: 9px !important;
+    padding: 20px 10px;
+    border-radius: 30px;
+    border: 1px solid #a3a3a3;
+    margin-left: 10px !important;
+    
+}
+.left_box_buttons{
+    display: flex;
+    justify-content: space-around;
+
+}
+ .csv_button {
+    border: none;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #04542C;
+    color: #fff;
+    font-family: Inter;
+    font-size: 13px;  
+    margin-top: 5px;  
+}
+.input_check{
+    margin-right: 15px;
+}
+.left_box_heading{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+.right_selact{
+   padding: 10px;
+}
+.right_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.date_duration{
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    /* margin-left: 12px; */
+    height: 40px;
+}
+
+.date:focus{
+    outline: none;
+    border-bottom: 2px solid #04542C !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .right_grid{
+     margin-top: 50px !important;        
+    }
+}

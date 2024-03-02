@@ -1,0 +1,1087 @@
+/* Row 1 */
+
+.dash-container2 {
+    background: rgba(100, 228, 142, 0.80);
+    height: 60px;
+}
+
+.header-top2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.lable_bold{
+    font-weight: 600 !important;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.start_timer_parent{
+    display: flex;
+    margin-left: 70px;
+}
+
+.header-top2 .header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;   
+
+}
+
+.header-top2 .header-icon p {
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 5px 30px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.header-top2 .header-icon i {
+    color: #73C31D
+}
+
+.header-top2 .header-icon span {
+    padding-left: 10px;   
+    font-size: 12px; 
+}
+
+.header-top2 .dash-header1 {
+    margin-left: 10px;
+}
+
+.header-top2 .dash-header1 h5{
+    padding: 5px 35px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.header-top2 .dash-header2 span {
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 50px;
+}
+
+.header-top2 .dash-header2 i {
+    color: #04542C;
+}
+
+.header-top2 .dash-header2 img{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.header-top2 .dash-header2 img:hover{
+    transform: scale(1.05, 1.05);
+}
+
+
+/* Row 2 */
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* width: 1098px; */
+    /* height: 880px; */
+    flex-shrink: 0;
+    border-radius: 50px;
+    /* background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+
+.time-div1 {
+    display: flex;
+    padding-top: 33px;  
+    /* width: 500px; */
+}
+
+.time-div1 .time1 {
+    background: #73C31D;
+    padding: 10px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+    font-size: 20px;    
+}
+
+.time-div1 .time3 {
+    background: #73C31D;
+    padding: 10px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    font-size: 20px;   
+}
+
+.time-div1 .middle-text {
+    background: #FFF;
+    height: 40px;
+    width:  400px;
+    padding: 0 15px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.time-div1 .middle-text span {
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    /* padding: 0 30px; */
+}
+
+.time-div1 .middle-text p {
+    margin-top: -10px;
+}
+
+
+.time .text-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.time .input-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    cursor: pointer;
+}
+
+.time .input-menu-focus {
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    height: 40px;
+    font-size: 13px;
+}
+
+.time .input-menu-focus:focus {
+    border-bottom: 2px solid #04542C !important;
+   box-shadow: none;
+  
+}
+
+.time .text-time .para1 {
+    border-radius: 10px;
+    background: rgba(100, 228, 142, 0.80);
+    width: 108px;
+    height: 37px;
+    display: flex;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.time .text-time .para2 {
+    border-radius: 10px;
+    background: #64E48E;
+    width: 108px;
+    height: 37px;
+    color: #000;
+    font-weight: 600;
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.time .text-time .para3 {
+    border-radius: 10px;
+    background: #FFF;
+    width: 108px;
+    height: 37px;
+    color: #000;
+    font-weight: 600;
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+/* Row 3 */
+
+.card-container-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.card-container1 {
+    margin-top: 20px;
+    width: 50%;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-container1 h5 {
+    padding-top: 25px;
+    margin-left: 25px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;        
+}
+
+.card-container1 p {
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin-left: 15px;
+}
+
+.form-timesheet .form-time1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+} 
+
+.card-container1 .form-timesheet {
+    margin-right: 5px;
+    margin-top: -10px;
+}
+
+.card-container1 .form-timesheet label {
+        color: #000;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+}
+
+.textarea {
+    display: flex; 
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.textarea input {
+    border-radius: 10px;
+    border: 1px solid #C8C8C8;
+    width: 98%;
+    height: 80px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+.textarea input:focus {
+    border-bottom: 2px solid #04542C !important;
+    outline: none;
+}
+
+
+.card-container1 .form-time1 input {
+    border-radius: 5px;
+    /* width: 250px; */
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #C8C8C8;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    height: 40px;
+    font-size: 14px;
+    
+}
+
+.card-container1 .form-time1 input[type="number"] {
+    /* Remove the default arrow icons */
+    -moz-appearance: textfield !important;
+    appearance: textfield !important;
+}
+
+.card-container1 .form-time1 input:focus {
+    border: none;
+    border-bottom: 2px solid #04542C !important;
+    outline: none;
+
+}
+
+
+.card-container1 .form-timesheet i {
+    color: #73C31D;
+}
+
+.card-container2 {
+    margin-top: 20px;
+    height: 275px;
+    width: 50%;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-container2 h5 {
+    padding-top: 25px;
+    margin-left: 25px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;    
+}
+
+.card-container2 p {
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin-left: 15px;
+}
+
+.card-container2 .form-timesheet label {
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.button-container{
+    display: flex;
+}
+
+.area {
+    /* margin-left: 10px; */
+    /* width: 250px; */
+    width: 100%;
+    margin-right: 5px;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    height: 40px;
+    font-size: 14px;
+}
+
+.area:focus {
+    border-bottom: 2px solid #04542C !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.checkbox-button {
+    width: 100px;
+    height: 27px;
+    margin-top: 30px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4 !important;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    padding: 2px;
+    margin-top: 25px;  
+    margin-left: 40px;
+    padding-left: 7px;
+}
+
+
+.checkbox-button input {
+    border: 1px solid #04542C;
+    background: #FFF;
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;    
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 42px;
+}
+
+.box-container2 {
+    display: flex;
+    column-gap: 10px;
+}
+
+.boxContainer .box1{
+    width: 35px;
+    height: 30px;
+    flex-shrink: 0;
+    border: 1px solid #04542C;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.boxContainer .box2{
+    width: 35px;
+    height: 30px;
+    flex-shrink: 0;
+    border: 1px solid #04542C;
+    padding-left: 7px;
+    padding-top: 3px;
+}
+
+.boxContainer .box3{
+    width: 35px;
+    height: 30px;
+    flex-shrink: 0;
+    border: 1px solid #04542C;
+    padding-left: 7px;
+    padding-top: 3px;
+}
+
+.boxContainer .box2 i {
+    color: #fb0000b8 ;
+}
+
+.boxContainer .box3 i {
+    color: #73C31D;
+}
+
+.boxContainer .box-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+
+.boxContainer .box-button {
+    border: none;
+    width: 120px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: rgb(100, 228, 142);
+    cursor: pointer;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;    
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* Row 5 */
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin-right: 50px;
+    margin-left: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+
+}
+
+.time-div1 {
+    display: flex;
+    padding-top: 30px;  
+    /* width: 500px; */
+}
+
+.time-div1 .time1 {
+    background: #73C31D;
+    padding: 10px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+    font-size: 20px;    
+}
+
+.time-div1 .time3 {
+    background: #73C31D;
+    padding: 10px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    font-size: 20px;   
+}
+
+.time-div1 .middle-text-bill{
+    background: #FFF;
+    height: 40px;
+    font-weight: 600;
+    width:  270px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    padding-top: 10px;
+    padding-left: 60px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.time-div1 .calender {
+    padding-right: 30px;
+    background-color: #fff;
+    height: 40px;
+}
+
+.time-div1 .calender i{
+    color: #73C31D;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.time-div1 .middle-text span {
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    /* padding: 0 30px; */
+}
+
+.time-div1 .middle-text p {
+    margin-top: -10px;
+}
+
+
+/* .time .text-time {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+} */
+
+.text-time input {
+    border: none;
+    margin-right: 10px;
+    width: 225px;
+    padding: 5px;
+    padding-left: 15px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.text-time input:focus {
+    border-bottom: 2px solid #04542C !important ;
+    outline: none;
+ }
+
+.time .text-time .para1 {
+    border-radius: 10px;
+    background: #fff;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    min-width: 100px;
+}
+
+.time .text-time .para2, .para3 {
+    border-radius: 10px;
+    background: #FFF;
+    width: 135.497px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #000;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    min-width: 100px;
+}
+
+
+
+/* Row 6  */
+
+.worksheet2 {
+    margin-right: 50px;
+    margin-left : 50px;
+    margin-top: 30px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.worksheet2 ul {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* width: 1106px; */
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 30px 30px 0px 0px;
+    background: #04542C;
+}
+
+.worksheet2 ul li {
+    list-style-type: none;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 0px 40px;
+}
+
+.worksheet2 .border1, .border2, .border3 {
+    /* width: 1150px; */
+    margin-top: 60px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 2px;
+    background: #C1C1C1;
+}
+
+/* Row 4  */
+
+/* .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    padding: 23px 0px;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+} */
+
+
+.button-container .button-container-button {
+    border-radius: 10px;
+    width: 102px;
+    height: 40px;
+    border: 1px solid #73C31D !important;
+    background: #FFF;
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 15px;
+}
+.react-datepicker__input-container input {
+    border-radius: 10px;
+    width: 117px;
+    height: 40px;
+    border: 1px solid #73C31D !important;
+    background: #FFF;
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 15px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+.react-datepicker__input-container input:focus{
+    border: none!important;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    .boxContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 458px) {
+    .boxContainer {
+        row-gap: 5px;
+        flex-direction: column;
+    }
+    .boxContainer .box-button{
+        margin-top: 10px;
+    }
+    .card-container2{
+        height: 300px 
+    }
+}
+
+
+@media screen and (max-width: 1350px) {
+    .time-div1 .middle-text-bill{
+        font-weight: 600;
+        width:  230px;
+        font-weight: 600;
+        font-family: 'Inter', sans-serif;
+        padding-top: 10px;
+        padding-left: 20px;        
+    }
+
+    .text-time input {
+        margin-right: 10px;
+        width: 180px;
+        
+    
+    }
+    
+    .time .text-time .para1 {
+       
+        width: 100px;
+        
+    }
+    
+    .time .text-time .para2, .para3 {
+        width: 110px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 1225px) {
+    .time {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 28px;
+        margin-right: 50px;
+        margin-left: 50px;
+        /* margin-bottom: 50px; */
+        /* width: 1098px; */
+        /* height: 880px; */
+    
+        flex-shrink: 0;
+        border-radius: 50px;
+        /* background: #FFF;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25); */
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .card-container-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card-container1 {
+        width: 90%;        
+    }
+    
+    .card-container2 {
+        width: 90%;        
+    }
+    
+
+
+    .worksheet2 {
+        margin-right: 10px;
+        margin-left : 10px;  
+    }
+
+ 
+    .worksheet2 ul li {   
+        font-size: 12px;
+        padding: 0px 5px;
+    }
+
+    .worklist2 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+    
+    /* .form-timesheet .form-time1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 30px;
+        align-items: center;
+    }  */
+
+        
+}
+@media screen and (max-width: 1150px) {
+    .start_timer_parent{
+        display: none;
+    }
+    .dash-header2 i  {
+        display: none;
+    }
+    .dash-header2 span  {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .text-time input {        
+        margin-right: 10px;
+        width: 100px;     
+    }
+    
+    .time .text-time .para1 {
+        width: 80px;
+        font-size: 12px;        
+    }
+    
+    .time .text-time .para2, .para3 {
+        width: 100px;
+        font-size: 12px;
+       
+    }     
+}
+
+
+.timer-second {
+    display: flex;
+    justify-content: center;
+    gap: 50px;  
+}
+
+.timer-second-container {
+    display: none;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .timer-second-container {
+        display: block;
+    }
+
+
+    .time .text-time .para1 {        
+        width: 70px;       
+        font-size: 12px;
+    }
+    .header-icon{
+        display: flex;
+        padding: 10px;
+        background: white;
+        border: 1px solid #73C31D;
+        color: #73C31D;
+        border-radius: 15px;
+    }
+    .header-icon p {
+        margin: 0;
+    }
+    .time .text-time .para2, .para3 {
+        width: 70px;        
+    }
+
+    .text-time input {
+        margin-right: 10px;
+        width: 100px;    
+     }
+
+   
+
+     .header-top2 .dash-header1 h5{
+        padding-top: 10px;
+        padding-left: 40px;
+     }
+    
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    .time .input-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 350px;
+        cursor: pointer;
+    }
+
+    .worklist2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .time {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .worklist2 li {  
+        font-size: 10px;
+        padding: 0px 2px;       
+        margin: 0;
+    }
+
+    .textarea input {
+        border-radius: 10px;
+        border: 1px solid #C8C8C8;
+        /* width: 350px; */
+        height: 80px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    /* .area {
+        width: 150px;        
+    } */
+
+    /* .card-container1 .form-time1 input {
+       width: 130px;
+        
+    } */
+
+    /* .card-container2 .form-time1 input {
+        width: 130px;        
+    } */
+
+    /* .card-container2 p {        
+        width: 300px;        
+    } */
+
+    /* .card-container1 p {        
+        width: 300px;        
+    } */
+
+    .time-div1 .middle-text-bill{        
+        width:  250px;       
+        padding-left: 10px;
+        
+    }
+
+    .time-div1 .calender {
+        padding-right: 10px;
+        
+    }
+    
+    .time-div1 .calender i{
+        color: #73C31D;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .time .text-time .para1 {
+        width: 70px;      
+       
+    }
+    
+    .time .text-time .para2, .para3 {       
+        width: 70px;
+        margin-right: 10px;       
+    }
+
+    .text-time input {
+        width: 70px;      
+    
+    }
+    .time-div1 {
+        display: none;
+    }
+
+    /* .time-div1 .middle-text {
+        height: 40px;
+        width:  300px;
+        padding: 0 5px;
+        font-size: 10px;
+        
+    } */ 
+    
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: none;
+        margin-right: 5px;
+        flex-wrap: wrap;
+    }
+    
+    .button-container .button-container-button {
+        margin-top: 0px;
+        width: 80px;        
+        margin-left: 5px;
+        margin-bottom: 15px;
+    }
+    .react-datepicker__input-container input {
+        margin-top: 0px;
+        width: 80px;        
+        margin-left: 5px;
+        margin-bottom: 15px;
+    }
+
+    
+    .dash-header2 i, .hours-tieims {
+        display: none;
+    }
+
+}

@@ -1,0 +1,41 @@
+.technical_doc{
+    min-height: 100vh;
+}
+
+.technical_doc h2 {
+    margin: 29px 0px;
+    margin-top: 37px;
+}
+
+.technical_doc .need_steps{
+    margin-left: 20px;
+}
+.technical_doc .need_steps span{
+    font-weight: 600;
+}
+.code_box{
+    background-color: rgba(100, 228, 142, 0.80);
+    padding: 20px 15px;
+    margin-bottom: 20px;
+}
+
+.code_box p {
+    margin: 0;
+}
+
+.backend_file_structure h2{
+    text-align: center;
+}
+
+.backend_file_structure p{
+    text-align: center;
+}
+
+.backend_file_structure div{
+    display: flex;
+    justify-content: center;
+}
+
+.backend_file_structure div img{
+    max-width : 100% ;
+}

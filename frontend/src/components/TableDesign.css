@@ -1,0 +1,38 @@
+.MuiTableContainer-root::-webkit-scrollbar {
+    width: 1px;
+} 
+.expense-edit .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    min-width: 850px !important;
+    height: 380px;
+}
+.expense-edit .css-uhb5lp{
+    min-width: 850px !important;
+    height: 380px;
+}
+
+.MuiTablePagination-root::-webkit-scrollbar {
+    width: 1px;
+}
+
+
+.css-1ex1afd-MuiTableCell-root {
+    text-align: center !important;
+}
+
+.MuiPaper-root {
+    border-radius: 20px !important;
+}
+
+.deleteIcon:hover {
+    color: red !important; 
+    transform: scale(1.1, 1.1);
+    transition: 0.35s;   
+    cursor: pointer;
+}
+
+.userIconsHover:hover {
+    /* color: red !important;  */
+    transform: scale(1.2, 1.2);
+    transition: 0.35s;   
+    cursor: pointer;
+}

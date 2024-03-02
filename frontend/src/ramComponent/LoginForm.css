@@ -1,0 +1,230 @@
+/* .main-container1 {
+    margin: 50px 100px;
+} */
+
+.parent_div {
+    padding: 50px 100px;
+}
+/* 
+.header-container1 {
+    background: rgba(100, 228, 142, 0.50);   
+    border-radius: 50px;
+} */
+
+.header-right1 {
+    background: #fff;
+    border-radius: 50px;
+    border: 2px solid #64E48E;  
+   
+}
+
+.head-text1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.head-text1 p {
+    color: #04542C;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-bottom: -4px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.head-text1 span {
+    color: #04542C;
+    font-weight: 700; 
+    font-size: 15px; 
+    font-family: 'Inter', sans-serif;  
+}
+
+.form {
+    padding: 0px 30px;
+    padding-top: 20px;  
+    font-family: 'Inter', sans-serif;
+}
+
+#formGridEmail, #formGroupEmail{
+    outline: black;
+    border: 1px solid gray;
+    padding:8px 5px;
+    /* margin-top: -8px; */
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+.form-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+
+form i {
+    color: red;
+}
+
+#formGridEmail, #formGroupEmail:focus {
+    box-shadow: none;    
+}
+
+/* .headBtn1 {
+    margin: 0 30px;
+} */
+
+.headBtn1 button {
+    background-color: #04542C;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.headBtn1 button:hover {
+    background: #64E48E;
+    color: #000;
+    font-weight: 600;
+    transition: 1s;
+    left: 0;
+}
+
+.head-bottom-text1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.headBtn1 .btn2 {
+    background: #64E48E;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 0;
+    font-family: 'Inter', sans-serif;
+    margin-top: -30px;
+}
+
+.headBtn1 .btn2:hover {
+    background-color: #04542C;
+}
+
+.head-bottom-text1 p{
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.head-bottom-text1 .text {
+    padding-top: 13px;
+}
+
+.head-bottom-text1 .text2 {
+    margin-top: 140px;
+}
+
+.head-bottom-text1 span {
+    color: #2385DF;    
+}
+
+
+@media screen and (max-width: 576px) {
+    .main-container {
+        margin: 0;
+    }
+
+    .parent_div {
+        padding: 0;
+    }
+  
+
+    .header-container {
+        /* background: #fff;   */
+        margin-bottom: 30px;       
+    }
+
+    .header-right {
+        /* background: #fff; */
+        border-radius: 0px;
+        border-radius: 50px;
+        padding-bottom: 10px;           
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+   
+
+    .header-right {
+        border: none;    
+    }
+
+    .header-left-para {
+        display: none;
+    }
+
+    /* .header-left h1 {
+            background: rgba(100, 228, 142, 0.50);     
+    } */
+
+    .header-container {
+        background: none
+        }
+
+
+    .form {
+        padding: 0px 5px;
+        padding-top: 20px;   
+    }
+    
+    #formGridEmail, #formGroupEmail{
+        outline: black;
+        border: 1px solid gray;
+        padding:12px 5px;
+        /* margin-top: -8px; */
+        font-size: 13px;
+    }
+
+    .head-bottom-text1 .text {
+        padding-top: 13px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .head-bottom-text1 span {
+        color: #2385DF;  
+        font-size: 15px;
+        font-weight: 500;  
+    }
+
+    .main-container {
+        margin: 5px 10px;
+    }
+
+    .parent_div {
+        padding: 0;
+    }
+    /* .header-container {
+        background: rgba(100, 228, 142, 0.50);         
+    } */
+
+
+    body {
+        background: #f1f1f1;  
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    /* .header-right1 {
+        margin-top: 30px;
+    } */
+}
+
+
+
+
+

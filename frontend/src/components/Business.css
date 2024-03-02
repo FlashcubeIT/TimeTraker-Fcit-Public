@@ -1,0 +1,79 @@
+.business-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/businessImg.svg);
+}
+
+.business-container h1 {
+    color: #04542C;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 40px 0;
+}
+
+.business-container p {
+    width: 780px;   
+    color: #000;    
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 800px) {
+    .business-container p {
+        width: 710px;
+    }
+}
+
+
+.business-container button {
+    border: none;
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 2px 20px;
+    /* width: 150px;
+    height: 40px; */
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #04542C;
+    margin: 40px 0;   
+    border: 2px solid #04542C;
+}
+.business-container button:hover{
+        background: white;
+        color:#04542C ;
+}
+@media screen and (max-width: 700px) {
+    .business-container p {
+        width: 500px;          
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .business-container h1 {
+        font-size: 25px;
+    }
+
+    .business-container p {
+        width: 350px;  
+        font-size: 15px;     
+    }
+}

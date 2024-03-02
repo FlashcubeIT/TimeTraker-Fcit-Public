@@ -1,0 +1,178 @@
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img//businessImg.svg);
+    margin-bottom: 50px;
+}
+
+.form-container h1 {
+    display: flex;
+    width: 440.043px;
+    height: 46px;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 39.1px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50.77px;
+    align-items: start;
+    margin: 0;
+}
+
+.form-container p {
+    display: flex;
+    width: 409.299px;
+    flex-direction: column;
+    justify-content: center;   
+    color: #000;    
+    font-family: League Spartan;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+
+.form-container form label {
+    display: flex;
+    height: 19px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.Landing_form_lable{
+    font-weight: bold;
+}
+
+.form-container form input {
+    padding: 5px 20px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-btn Button{
+    border-radius: 4px;
+    border: 1px solid #04542C;
+    background: #04542C;
+    color: #FFF;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    width: 100%;
+    border: 2px solid #04542C !important;
+}
+
+.form-btn Button:hover {
+    background: white;
+    color:#04542C ;
+}
+
+.form-img {
+    position: relative;
+}
+
+
+.form-img .form-img {
+    z-index: 999;
+}
+
+.form-img .circle1 {
+    position: absolute;
+    right: -10%;
+    top: -10%;
+    z-index: 0;
+    width: 40%;
+} 
+
+.form-img .circle2 {
+    position: absolute;
+    bottom: -15%;
+    left: -9%;
+    width: 40%;
+} 
+
+
+@media screen and (max-width: 1050px) {
+    .form-container {       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 70px;
+        margin-top: 100px;        
+    }
+
+    .form-container h1 {
+        width: 350px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .form-container p {
+        width: 350px;
+        text-align: start;
+    }
+
+    .form-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-btn Button{
+       width: 377px;
+        font-size: 20px;       
+    }
+
+    .form-img img {
+        height: 100%;
+        width: 100%;
+    } 
+
+    .form-img .circle1 {
+        display: none;
+    } 
+    
+    .form-img .circle2 {
+       display: none;
+    }
+
+    
+.form-img {
+    display: none;
+}
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .form-btn Button {
+        width: 348px;
+        font-size: 20px;
+    }
+}

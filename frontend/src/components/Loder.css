@@ -1,0 +1,115 @@
+/* 
+
+.time-6 {
+  width: 88px;
+  height: 86px;
+  border: 10px solid #004f27;
+  border-radius: 50%;
+  animation: t6 2s infinite linear;
+
+}
+
+.time-6:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  inset:auto calc(50% - 10px) 100%;
+  border-radius: 5px 5px 0 0;
+  background: 
+    linear-gradient(currentColor 0 0) top/100% 30%,
+    linear-gradient(currentColor 0 0) top/50% 100%;
+  background-repeat: no-repeat;
+  color: #004f27;
+}
+.time-6:after {
+  content: "";
+  position: absolute;
+  inset: -1px 5px auto;
+  height:15px;
+  background: 
+    radial-gradient(farthest-side,currentColor 94%,#0000) left,
+    radial-gradient(farthest-side,currentColor 94%,#0000) right;
+  background-size:15px 15px;
+  background-repeat: no-repeat;
+  color: #004f27;
+}
+
+@keyframes t6 {
+  0%   {background: conic-gradient(#51ff41 0     ,#0000 0)}
+  4%{background: conic-gradient(#51ff41 14.4deg ,#0000 14.5deg)}
+  8%{background: conic-gradient(#51ff41 28.8deg ,#0000 28.9deg)}
+  12%{background: conic-gradient(#51ff41 43.2deg ,#0000 43.2deg)}
+  16%{background: conic-gradient(#51ff41 57.6deg ,#0000 57.6deg)}
+  20%{background: conic-gradient(#51ff41 72deg ,#0000 72.1deg)}
+  24%{background: conic-gradient(#51ff41 100.8deg ,#0000 100.9deg)}
+  28%{background: conic-gradient(#51ff41 115.2deg ,#0000 115.3deg)}
+  32%{background: conic-gradient(#51ff41 129.6deg ,#0000 129.7deg)}
+  36%{background: conic-gradient(#51ff41 144deg ,#0000 144.1deg)}
+  40%{background: conic-gradient(#51ff41 158.4deg ,#0000 158.5deg)}
+  44%{background: conic-gradient(#51ff41 172.8deg ,#0000 172.9deg)}
+  48%{background: conic-gradient(#51ff41 187.2deg ,#0000 187.3deg)}
+  52%{background: conic-gradient(#51ff41 201.6deg ,#0000 201.7deg)}
+  56%{background: conic-gradient(#51ff41 216deg ,#0000 216.1deg)}
+  60%{background: conic-gradient(#51ff41 230.4deg ,#0000 230.5deg)}
+  64%{background: conic-gradient(#51ff41 244.8deg ,#0000 244.9deg)}
+  68%{background: conic-gradient(#51ff41 259.2deg ,#0000 259.3deg)}
+  72%{background: conic-gradient(#51ff41 273.6deg ,#0000 273.7deg)}
+  76%{background: conic-gradient(#51ff41 288deg ,#0000 288.1deg)}
+  80%{background: conic-gradient(#51ff41 302.4deg ,#0000 302.4deg)}
+  84%{background: conic-gradient(#51ff41 316.8deg ,#0000 316.8deg)}
+  88%{background: conic-gradient(#51ff41 331.2deg ,#0000 331.3deg)}
+  92%{background: conic-gradient(#51ff41 345.6deg ,#0000 345.6deg)}
+  100%{background: conic-gradient(#51ff41 360deg ,#0000 360deg)} 
+
+
+
+} */
+
+
+ .time-5 {
+  --c1: #005221;
+    --c2: #2aff0091;
+    width: 49px;
+    height: 90px;
+    border-top: 4px solid var(--c1);
+    border-bottom: 4px solid var(--c1);
+    background: linear-gradient(90deg, var(--c1) 2px, var(--c2) 0 5px,var(--c1) 0) center/7px 8px no-repeat;
+    display: grid;
+    overflow: hidden;
+    animation: t5-0 2s infinite linear;
+}
+.time-5::before,
+.time-5::after {
+  content: "";
+    grid-area: 1/1;
+    width: 84%;
+    height: calc(50% - 2px);
+    margin: 0 auto;
+    border: 2px solid var(--c1);
+    border-top: 0;
+    border-radius: 0 0 40% 40%;
+    -webkit-mask: linear-gradient(#000 0 0) bottom/4px 2px no-repeat, linear-gradient(#000 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    background: linear-gradient(var(--d,0deg),var(--c2) 50%,#0000 0) bottom /100% 205%, linear-gradient(var(--c2) 0 0) center/0 100%;
+    background-repeat: no-repeat;
+    animation: inherit;
+    animation-name: t5-1;
+}
+
+.time-5::after {
+  transform-origin: 50% calc(100% + 2px);
+  transform: scaleY(-1);
+  --s:3px;
+  --d:180deg;
+}
+
+@keyframes t5-0 {
+  80%  {transform: rotate(0)}
+  100% {transform: rotate(0.5turn)}
+}
+
+@keyframes t5-1 {
+  10%,70%  {background-size:100% 205%,var(--s,0) 100%}
+  70%,100% {background-position: top,center}
+}

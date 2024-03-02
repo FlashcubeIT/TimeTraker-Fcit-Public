@@ -1,0 +1,175 @@
+/* .main-container {
+    background: rgba(100, 228, 142, 0.50);
+    border-radius: 50px;
+}
+
+.parent_div {
+    padding: 50px 100px;
+}
+
+.header-container {
+    border-radius: 50px;
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .main-container {
+        margin: 0;
+    }
+    .parent_div {
+        padding: 0;
+    }
+    .img-container .img {
+        border: 2px solid #30B05A;
+        width: 85px;
+        height: 110px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .img-container .img img {
+        width: 30px;
+    }
+
+    .header-left h1 {
+        font-size: 25px;
+        margin: 0;
+        padding-bottom: 50px;
+        padding-top: 50px;
+
+    }
+
+    .img-container .img p {
+        font-size: 13px;
+    }
+
+    .header-container {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .img-container {
+        display: none;
+    }
+
+    .main-container {
+
+        background: none;
+
+    }
+
+
+    .header-left-para {
+        display: none;
+    }
+
+
+    .header-container {
+        background: none
+    }
+
+    form {
+        padding: 0px 5px;
+        padding-top: 20px;
+    }
+
+    .parent_div {
+        padding: 0;
+    }
+
+    .main-container {
+        margin: 5px 10px;
+    }
+
+    .header-container {
+        background: none
+    }
+
+
+    .header-left {
+        background: none;
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+    .main-container {
+        margin: 0px;
+    }
+    .parent_div {
+        padding: 0;
+    }
+
+    .img-container .img {
+        border: 2px solid #30B05A;
+        background-color: #fff;
+        width: 105px;
+        height: 145px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .img-container .img p {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #000;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    .header-left {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+} */
+
+
+
+
+.main_parent_for_login{ 
+    /* padding: 50px; */
+    background-color: #b1f1c6;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.parent_div{
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+    .for_phone_only_form{
+        display: none;
+    }
+
+}
+
+.parent_div{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .for_phone_only_form{
+        display: block;
+    }
+    .for_lap_only_form{
+        display: none;
+    }
+}

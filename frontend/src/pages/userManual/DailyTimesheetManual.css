@@ -1,0 +1,172 @@
+.content_right_dashboard_3 {
+    width: calc(100vw - 235px) !important;
+    margin-left: 218px !important;
+    padding: 0 !important;
+}
+
+.user_manual {
+    min-height: 100vh;
+    text-align: center;
+}
+.user_manual h2 {
+    margin: 29px 0px;
+    margin-top: 37px;
+}
+
+.hamburgar {
+    color: #000;
+    font-size: 25px;
+    position: absolute;
+    top: 13px;
+    display: block;
+    margin-left: 20px;
+}
+
+.dash-container1 {
+    background: rgba(100, 228, 142, 0.80);
+    height: 60px;
+}
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-top .dash-header1 {
+    margin-left: 50px;
+}
+
+.header-top .dash-header1 p {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    margin: 0;
+}
+
+.header-top .dash-header2 img {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.header-top .dash-header2 img:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.nav-button {
+    padding-right: 10px;
+}
+
+.nav-button button {
+    border: none;
+    margin-left: 10px;
+}
+
+/* .new_nav_back{
+    background-image: url("./webComponents/images/back.svg") !important;
+} */
+.nav-button .nav-btn1 {
+    color: #04542C;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 30px;
+    background: rgba(115, 195, 29, 0.80);
+    padding: 12px 30px;
+    border: 1px solid rgba(115, 195, 29, 0.80);
+}
+
+.nav-button .nav-btn1:hover {
+    background: white;
+    color: #04542C;
+}
+
+.nav-button .nav-btn2 {
+    color: #FFF;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #04542C;
+    padding: 12px 30px;
+    border: 1px solid #04542C;
+}
+.step_save_div p .process{
+    font-size: 18px;
+}
+
+.inside_process{
+    margin-left: 20px !important;
+}
+
+.nav-button .nav-btn2:hover {
+    background: white;
+    color: #04542C;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .nav-menu li a {
+        font-size: 17px;
+    }
+
+    .nav-button .nav-btn1 {
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 20px;
+        padding: 12px 20px;
+    }
+
+    .nav-button .nav-btn2 {
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 20px;
+        padding: 12px 20px;
+    }
+}
+
+.step_save_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.step_save_div p {
+    text-align: start;
+    margin: 8px 0px;
+    font-size: 17px;
+}
+
+.step_save_div p span {
+    font-weight: 600;
+}
+
+.note {
+    border-radius: 10px;
+    background: #80e93363;
+    padding: 21px 20px;
+    margin: 20px 0px;
+    width: 96%;
+}
+
+.step_save_div_last {
+    padding-bottom: 30px;
+}

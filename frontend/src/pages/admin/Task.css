@@ -1,0 +1,138 @@
+.task-container {
+    background: rgba(100, 228, 142, 0.80);
+    height: 60px;
+}
+
+.project-textarea{
+    resize: none;
+    border-radius: 10px;
+    height: 75px;
+    margin: auto;
+    border: 1px solid rgb(172, 172, 172);
+}
+.projectInput{
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+}
+
+/* Row 1 */
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left:  0px !important;
+    margin-right: 30px;
+}
+
+.task-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.task-top .task-header1 {
+    margin-left: 10px;
+}
+
+.task-top .task-header1 h5{
+    padding: 0 40px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.task-top .task-header2 img{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.task-top .task-header2 img:hover{
+    transform: scale(1.05, 1.05);
+}
+
+/* Row 2 */
+.task-form {
+    margin: 0 15px ;
+}
+
+.input_tag  {
+    height: 50px;
+}
+
+.input_tag:focus  {
+    border-bottom:2px solid #04542C !important;
+    box-shadow: none;
+  outline: none;
+}
+
+
+.task-btn Button{
+    background-color: #80e6a2;
+    color: #000;
+    border: none;
+    padding: 13px 72px;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.task-btn Button:hover{
+    background-color: #04542C;
+    color: #fff;  
+
+}
+
+/* Row 3 */
+.table-container {
+    margin: 10px 50px;
+}
+
+.userDeleteIconsHover {
+    transform: scale(1.2, 1.2);
+}
+
+.peoject_form_padding{
+    padding: 10px 30px;
+ }
+ 
+@media screen and (min-width: 1000px) {
+    .peoject_form_padding{
+        padding: 10px 50px;
+     }
+}
+
+@media screen and (min-width: 1200px) {
+    .peoject_form_padding{
+        padding: 10px 80px;
+     }
+}
+
+@media screen and (min-width: 1300px) {
+    .peoject_form_padding{
+        padding: 10px 120px;
+     }
+}
+@media screen and (min-width: 1400px) {
+    .peoject_form_padding{
+        padding: 10px 150px;
+     }
+}
+@media screen and (min-width: 1500px) {
+    .peoject_form_padding{
+        padding: 10px 170px;
+     }
+}
+
+
+@media screen and (max-width: 576px) {
+    .table-container {
+        margin: 10px 5px;
+    }    
+
+    
+}

@@ -1,0 +1,161 @@
+.PrivacyPolicyContainer {
+  padding: 30px 200px 30px 200px;
+  background-color: #fff;
+}
+
+.PrivacyPolicyTop h6 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+  font-family: Roboto;
+}
+
+.PrivacyPolicyTop .paraTop {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-family: Roboto;
+}
+
+/* Definition */
+.Definition h1 {
+  color: #73c31d;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.Definition h3 {
+  padding-left: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  font-family: Roboto;
+}
+
+.Definition .defPara {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-family: Roboto;
+  padding-left: 50px;
+}
+
+/* Information */
+.information h1 {
+  color: #73c31d;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.information .infoPara {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-family: Roboto;
+}
+
+.information h5 {
+  color: #73c31d;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.information .infoPara {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-family: Roboto;
+}
+
+/* Use of Data */
+.useData h1 {
+  color: #73c31d;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.useData .infoPara {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-family: Roboto;
+}
+
+/* Security of Data */
+.securityData h1 {
+  color: #73c31d;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.securityData .securityPara {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-family: Roboto;
+}
+
+.securityData h5 {
+  color: #73c31d;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+/* Privacy */
+.Privacy h1 {
+  color: #73c31d;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.Privacy .securityPara {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-family: Roboto;
+}
+
+.Contact h1 {
+  color: #73c31d;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.Contact .securityPara {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 1000px) {
+  .PrivacyPolicyContainer {
+    padding: 30px 30px 30px 30px;
+    background-color: #fff;
+  }
+
+  .Definition h3 {
+    padding-left: 10px;
+  }
+
+  .Definition .defPara {
+    padding-left: 15px;
+  }
+}

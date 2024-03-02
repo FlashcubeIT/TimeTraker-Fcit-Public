@@ -1,0 +1,279 @@
+.section3 {
+    background: white;
+    padding-top: 50px;
+}
+
+
+
+.hero_section {
+    margin-top: -100px;
+    background-image: url("./images/back.svg");
+    padding-top: 130px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.web_hero_left_div {
+    width: 80%;
+}
+
+.web_hero_left_heading {
+    font-size: 50px;
+    color: #04542C;
+}
+.web_hero_left_heading_rev {
+    font-size: 50px;
+    color: #04542C;
+    text-align: end;
+}
+
+.web_hero_left_p_parent {
+    border-left: 2px solid #73C31D;
+    padding-left: 24px;
+    /* width: 71%; */
+}
+.web_hero_left_p_parent_rev {
+    border-right: 2px solid #73C31D;
+    padding-right: 24px;
+    /* width: 71%; */
+}
+
+
+.web_hero_left_p {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.btn_rev{
+    display: flex;
+    justify-content: end;   
+}
+
+.web_hero_left_p_rev {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    text-align: end;
+}
+
+
+.web_hero_left_button {}
+
+.web_hero_left_item {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.web_hero_left_item_rev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .section_4_icon{
+    margin-right: 10px;
+    color: #000;
+    font-size: 8px;
+    display: inline;
+} */
+
+
+
+
+
+.web_hero_right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.web_hero_right_img1 {
+    width: 68%;
+    z-index: 100;
+}
+
+.web_hero_right_img2 {
+    position: absolute;
+    left: 27px;
+    bottom: -40px;
+    width: 12%;
+}
+
+
+.for_rev_text p {
+    text-align: start !important;
+}
+
+.section3_heading {
+    font-size: 35px;
+    text-align: center;
+    color: #04542C;
+}
+
+.section3_des_parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3_des {
+    font-family: 'League Spartan', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    text-align: center;
+    width: 79%;
+    font-size: 18px;
+    font-weight: 300 !important;
+}
+
+.section_4 {
+    margin-top: 0;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.section_5_mb {
+    padding-bottom: 100px;
+}
+
+.web_hero_right_img2_rev{
+    position: absolute;
+    right: 14px;
+    bottom: -32px;
+    width: 12%;
+}
+
+.li_head {
+    font-family: League Spartan;
+    color: #73C31D;
+    font-weight: 600;
+}
+
+.section_4_para {
+    font-size: 17px;
+}
+
+.section_4_para_data {
+    margin-bottom: 0px;
+    margin-top: 3px !important;
+    font-size: 17px;
+}
+
+.section_5_para {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1100px) {
+    .section_5_btn_1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .section_5_btn_2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .img_for_web_pages_parent {
+        width: 100%;
+    }
+
+    .img_for_web_pages {
+        width: 90% !important;
+    }
+}
+@media screen and (min-width: 900px) {
+    .web_hero_btn_1{
+        display: flex;
+    }
+    .web_hero_btn_2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .web_hero_left_item {
+        justify-content: center;
+    }
+
+    .web_hero_right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .web_hero_right_img1 {
+        width: 68%;
+    }
+
+    .web_hero_right_img2 {
+        position: absolute;
+        left: 27px;
+        bottom: -40px;
+        width: 12%;
+    }
+    .web_hero_left_heading{
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .web_hero_btn_2{
+        display: block;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .web_hero_btn_1{
+        display: none;
+    }
+
+
+
+    /* rev  */
+    .web_hero_left_item_rev {
+        justify-content: center;
+    }
+
+    .web_hero_right_rev {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .web_hero_right_img1_rev {
+        width: 68%;
+    }
+
+    .web_hero_right_img2_rev {
+        position: absolute;
+        right: 23px;
+        bottom: -18px;
+        width: 12%;
+    
+    }
+    .web_hero_left_heading_rev{
+        font-size: 35px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .web_hero_btn_2_rev{
+        display: block;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .web_hero_btn_1_rev{
+        display: none;
+    }
+ 
+}
